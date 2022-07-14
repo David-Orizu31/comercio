@@ -230,6 +230,14 @@ body p {
     font-size: 20px;
 }
 
+.footer-link:hover {
+    color: rgb(241, 170, 38);
+}
+
+.footer-link.active {
+    color: rgb(241, 170, 38);
+}
+
 /* .b-right {
     border-right: 1px solid rgba(85, 5, 110, 0.897);
     border-width: 1.2px;
