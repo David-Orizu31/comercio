@@ -86,7 +86,7 @@ body p {
 
 .btn-deposit {
     background: rgba(85, 5, 110, 0.897);
-    color: rgb(241, 170, 38);
+    color: white;
     border: 2px solid rgba(85, 5, 110, 0.897);
     border-radius: 5px;
     font-weight: 600;
