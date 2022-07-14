@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Jost:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&family=Secular+One&display=swap');
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Jost', sans-serif;
+}
+
+body p {
+    line-height: 1.7em;
+    font-size: 17px;
+}
+
+.fixed-top {
+    background: rgba(85, 5, 110, 0.897);
+}
+
+.not-dropdown {
+    color: rgb(241, 170, 38);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.not-dropdown:hover {
+    color: rgb(241, 170, 38);
+}
+
+.header-head {
+    color: rgb(241, 170, 38);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+.btn-userdrop {
+    color: rgb(241, 170, 38);
+}
+
+.btn-userdrop:focus {
+    box-shadow: none;
+    border: none;
+    color: rgb(241, 170, 38);
+}
+
+.btn-userdrop:hover {
+    color: rgb(241, 170, 38);
+    border: none;
+}
+
+.banner-1 {
+    background: url(../img/offer-bg-1.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-2 {
+    background: url(../img/offer-bg-3.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-3 {
+    background: url(../img/offer-bg-4.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.img-banner {
+    width: 100%;
+    height: auto;
+}
+
+.bantext-area {
+    margin-top: 100px;
+    background-color: rgba(85, 5, 110, 0.897);
+    border-radius: 5px;
+}
+
+.bantext-area h3 {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+}
+
+.btn-deposit {
+    background: rgba(85, 5, 110, 0.897);
+    color: rgb(241, 170, 38);
+    border: 2px solid rgba(85, 5, 110, 0.897);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-deposit:hover {
+    color: rgba(85, 5, 110, 0.897);
+    border: 2px solid rgba(85, 5, 110, 0.897);
+}
+
+.marquee-area {
+    position: relative;
+    margin: 0px 15px 0px 15px;
+}
+
+.marquee-area marquee {
+    background: rgb(241, 170, 38);
+    color: rgba(85, 5, 110, 0.897);
+    font-size: 16px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.megaphone {
+    position: relative;
+    color: rgba(85, 5, 110, 0.897);
+    background-color: rgb(241, 170, 38);
+    font-size: 20px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.c-1 {
+    width: 4%;
+}
+
+.c-11 {
+    width: 96%;
+}
+
+.dash-links-area a {
+    text-decoration: none;
+}
+
+.dash-links-area a .dash-icons i {
+    background: rgba(223, 214, 226, 0.897);
+    color: rgba(85, 5, 110, 0.897);
+    border-radius: 50%;
+    padding: 15px 20px 15px 20px;
+}
+
+.dash-links-area a .dash-text {
+    color: rgba(85, 5, 110, 0.897);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.levels-area .level-head {
+    color: rgb(241, 170, 38);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+.levels-area .levels {
+    width: 100%;
+    background: rgba(223, 214, 226, 0.897);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.levels-area .levels.active {
+    background: white;
+}

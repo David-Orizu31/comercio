@@ -1,0 +1,19 @@
+@media (max-width:992px) {
+    .c-1 {
+        width: 7%;
+    }
+    
+    .c-11 {
+        width: 93%;
+    }
+}
+
+@media (max-width:480px) {
+    .c-1 {
+        width: 16%;
+    }
+    
+    .c-11 {
+        width: 84%;
+    } 
+}
