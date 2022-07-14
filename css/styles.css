@@ -159,8 +159,68 @@ body p {
     background: rgba(223, 214, 226, 0.897);
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
 }
 
 .levels-area .levels.active {
     background: white;
+}
+
+.footer-area {
+    box-shadow: 0px 0 15px rgba(0, 0, 0, 0.3);
+    background: white;
+}
+
+.comercio-level-img {
+    background: rgba(85, 5, 110, 0.897);
+    color: white;
+}
+
+.comercio-level-img h3 {
+    font-family: 'Secular One', sans-serif;
+    line-height: 1em;
+}
+
+.comercio-level-img span {
+    font-size: 10px;
+}
+
+.text-orange {
+    color: rgb(241, 170, 38);
+}
+
+.text-purple {
+    color: rgba(85, 5, 110, 0.897);
+}
+
+/* .comercio-level-text h5 {
+    
+} */
+
+.comercio-level-text p{
+    font-size: 14px;
+    line-height: 0.2em !important;
+}
+
+.subscript {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.subscript .sub-text {
+    background: rgba(85, 5, 110, 0.897);
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+.abs-lock {
+    position: absolute;
+    top: 30%;
+    left : 50%;
+}
+
+.abs-lock span {
+    color: white;
+    opacity: 0.5;
 }

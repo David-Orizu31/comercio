@@ -16,4 +16,25 @@
     .c-11 {
         width: 84%;
     } 
+
+    .subscript {
+        right: 10px;
+    }
+
+    .subscript .sub-text {
+        padding: 4px 8px 4px 8px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width:380px) {
+    .comercio-level-text .last span{
+        line-height: 1.9em !important;
+    }
+
+    .subscript .sub-text {
+        padding: 3px 6px 3px 6px;
+        font-size: 8px;
+    }
+    
 }
