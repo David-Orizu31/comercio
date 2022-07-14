@@ -25,6 +25,11 @@
         padding: 4px 8px 4px 8px;
         font-size: 9px;
     }
+
+    .abs-lock {
+        top: 30%;
+        left : 45%;
+    }
 }
 
 @media (max-width:380px) {
