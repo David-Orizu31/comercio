@@ -1,34 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Jost:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;500;600;700&family=Fredoka+One&family=Manrope:wght@400;500;600&family=Oxygen:wght@400;700&family=Patua+One&family=Raleway:wght@400;500;600&display=swap');
 
 html,body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 body p {
-    line-height: 1.7em;
-    font-size: 17px;
+    color: rgb(66, 65, 66);
+    font-size: 16px;
+    line-height: 1.8em;
 }
 
-.fixed-top {
-    background: rgba(85, 5, 110, 0.897);
+.navbar {
+    background: white;
+    z-index: 104;
+    box-shadow: 0 0 0.625rem 0 rgb(0 0 0 / 10%);
+    /* box-shadow: 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%); */
 }
 
-.not-dropdown {
-    color: rgb(241, 170, 38);
-    text-decoration: none;
-    font-size: 18px;
+.navbar .navbar-brand {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
 }
 
-.not-dropdown:hover {
-    color: rgb(241, 170, 38);
+.navbar .navbar-brand h3 {
+    line-height: 1em;
+    margin-bottom: 0.2rem;
 }
 
-.header-head {
-    color: rgb(241, 170, 38);
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 600;
+.toggle-btn {
+    color: rgb(85, 5, 110);
+    border: transparent;
+    font-size: 22px;
+}
+
+.toggle-btn:hover {
+    border: transparent;
+    color: rgb(85, 5, 110);
+}
+
+.toggle-btn:focus {
+    box-shadow: none;
+    border: transparent;
+}
+
+.btn-withdraw {
+    color: rgb(85, 5, 110);
+    border: 1px solid rgb(85, 5, 110);
+    border-radius: 20px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.btn-deposit {
+    color: white;
+    background: rgb(85, 5, 110);
+    border: 1px solid rgb(85, 5, 110);
+    border-radius: 20px;
+    margin-right: 15px;
+    font-size: 15px;
 }
 
 .btn-userdrop {
@@ -46,265 +77,230 @@ body p {
     border: none;
 }
 
-.banner-1 {
-    background: url(../img/offer-bg-1.jpg) no-repeat center;
-    height: 350px;
-    background-size: cover;
-    position: relative;
+.navbar-nav {
+    margin-left: 30px;
 }
 
-.banner-2 {
-    background: url(../img/offer-bg-5.jpg) no-repeat center;
-    height: 350px;
-    background-size: cover;
-    position: relative;
+.navbar-nav .nav-item .nav-link {
+    color: rgb(89, 87, 90);
 }
 
-.banner-3 {
-    background: url(../img/offer-bg-4.jpg) no-repeat center;
-    height: 350px;
-    background-size: cover;
-    position: relative;
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(85, 5, 110);
 }
 
-.img-banner {
-    width: 100%;
-    height: auto;
+.navbar-nav .nav-item.active .nav-link {
+    color: rgb(85, 5, 110);
 }
 
-.bantext-area {
-    margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+.drop-menu {
+    background: rgb(85, 5, 110);
+    border-radius: 0px;
+    border: none;
 }
 
-.bantext-area h3 {
+.drop-menu li a {
     color: white;
-    font-family: 'Secular One', sans-serif;
-    font-weight: 500;
 }
 
-.btn-deposit {
-    background: rgba(85, 5, 110, 0.897);
-    color: white;
-    border: 2px solid rgba(85, 5, 110, 0.897);
-    border-radius: 5px;
-    font-weight: 600;
-}
-
-.btn-deposit:hover {
-    color: rgba(85, 5, 110, 0.897);
-    border: 2px solid rgba(85, 5, 110, 0.897);
-}
-
-.marquee-area {
-    position: relative;
-    margin: 0px 15px 0px 15px;
-}
-
-.marquee-area marquee {
-    background: rgb(241, 170, 38);
-    color: rgba(85, 5, 110, 0.897);
-    font-size: 16px;
-    font-family: 'Secular One', sans-serif;
-    font-weight: 500;
-    border-radius: 0px 5px 5px 0px;
-}
-
-.megaphone {
-    position: relative;
-    color: rgba(85, 5, 110, 0.897);
-    background-color: rgb(241, 170, 38);
-    font-size: 20px;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    border-radius: 5px 0px 0px 5px;
-}
-
-.c-1 {
-    width: 4%;
-}
-
-.c-11 {
-    width: 96%;
-}
-
-.dash-links-area a {
-    text-decoration: none;
-}
-
-.dash-links-area a .dash-icons i {
-    background: rgba(223, 214, 226, 0.897);
-    color: rgba(85, 5, 110, 0.897);
-    border-radius: 50%;
-    padding: 15px 20px 15px 20px;
-}
-
-.dash-links-area a .dash-text {
-    color: rgba(85, 5, 110, 0.897);
-    font-weight: 600;
-    margin-top: 10px;
-}
-
-.levels-area .level-head {
+.drop-menu li a:hover {
     color: rgb(241, 170, 38);
-    font-family: 'Lexend Deca', sans-serif;
+    background: transparent;
+}
+
+.home-banner {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/aff-market-back.png) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    padding-top: 120px;
+}
+
+.home-banner h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
     font-weight: 600;
 }
 
-.levels-area .levels {
-    width: 100%;
-    background: rgba(223, 214, 226, 0.897);
-    border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-}
-
-.levels-area .levels.active {
-    background: white;
-}
-
-.footer-area {
-    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
-    background: white;
-}
-
-.comercio-level-img {
-    background: rgba(85, 5, 110, 0.897);
+.home-banner p {
+    font-family: 'Arima', sans-serif;
     color: white;
+    font-size: 17px;
+    font-weight: 500;
 }
 
-.comercio-level-img h3 {
-    font-family: 'Secular One', sans-serif;
-    line-height: 1em;
+.btn-start {
+    color: white;
+    background: rgb(241, 170, 38);
+    font-weight: 600;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
 }
 
-.comercio-level-img span {
-    font-size: 10px;
+.btn-start:hover {
+    color: rgb(241, 170, 38);
+    border: 1px solid rgb(241, 170, 38);
+    background: transparent;
+}
+
+.text-oxygen {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.text-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-arima {
+    font-family: 'Arima', sans-serif;
+}
+
+.text-fredoka {
+    font-family: 'Fredoka One', cursive;
+}
+
+.text-patua {
+    font-family: 'Patua One', cursive;
+}
+
+.text-purple {
+    color: rgb(85, 5, 110);
 }
 
 .text-orange {
     color: rgb(241, 170, 38);
 }
 
-.text-purple {
-    color: rgba(85, 5, 110, 0.897);
+.font-500 {
+    font-weight: 500;
 }
 
-.comercio-level-text p{
-    font-size: 14px;
-    line-height: 0.2em !important;
+.font-600 {
+    font-weight: 600;
 }
 
-.subscript {
-    position: absolute;
-    top: 0;
-    right: 15px;
+.font-700 {
+    font-weight: 700;
 }
 
-.subscript .sub-text {
-    background: rgba(85, 5, 110, 0.897);
-    padding: 5px 10px 5px 10px;
-    font-size: 12px;
+.first-content h3 {
+    font-weight: 600;
+}
+
+.btn-more {
+    color: white;
+    background: rgb(85, 5, 110);
+    border: 1px solid rgb(85, 5, 110);
+    border-radius: 23px;
+}
+
+.btn-more:hover {
+    color: rgb(85, 5, 110);
+    background: transparent;
+    border: 1px solid rgb(85, 5, 110);
+}
+
+.promo-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.promo-list li {
+  margin-bottom: 10px;
+  background: rgb(85, 5, 110);
+  color: white;
+  padding: 15px 10px 15px 10px;
+  border-radius: 6px;
+}
+
+.level-area {
+    background: rgb(85, 5, 110);
+    border-radius: 6px;
+    position: relative;
+    /* border: 2px solid rgb(235, 156, 11); */
+}
+
+.level-area.disabled {
+    opacity: 0.85;
+}
+
+.level-area a {
+    text-decoration: none;
+}
+
+.level-area p {
+    color: white;
+    font-size: 17px;
 }
 
 .abs-lock {
     position: absolute;
-    top: 30%;
-    left : 50%;
-}
-
-.abs-lock span {
+    top: 45%;
+    left: 45%;
     color: white;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
-.footer-link {
-    color: rgba(85, 5, 110, 0.897);
-    text-decoration: none;
-} 
+.sticky-nav {
+    position: fixed;
+    top: 30%;
+    left: 0;
+}
 
-.footer-link span {
+.sticky-nav ul {
+    position: relative;
+    z-index: 99999;
+    list-style: none;
+    background: rgb(134, 81, 134);
+    border-radius: 0px 5px 5px 0px;
+    padding-inline-start: 0px;
+}
+
+.sticky-nav ul li {
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.sticky-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sticky-nav ul li a:hover {
+    color: rgb(241, 170, 38);
+}
+
+.sticky-nav ul li a i {
     font-size: 20px;
 }
 
-.footer-link:hover {
+.start-area {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/comercio-abs-back.jpg) no-repeat center;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
+.footer-area {
+    background: rgb(33, 32, 34);
+}
+
+.footer-area .foot-social a {
+   color: white;
+   font-size: 20px
+}
+
+.footer-area .foot-social a .fab:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
     color: rgb(241, 170, 38);
 }
 
-.footer-link.active {
-    color: rgb(241, 170, 38);
+.copyright {
+    font-size: 13px;
 }
-
-/* .b-right {
-    border-right: 1px solid rgba(85, 5, 110, 0.897);
-    border-width: 1.2px;
-} */
-
-.grab {
-    margin-top: -12px !important;
-}
-
-.grab-link {
-    text-decoration: none;
-}
-
-.grab-link span{
-   color: rgb(241, 170, 38);
-   background: rgba(85, 5, 110, 0.897);
-   border-radius: 50%;
-   padding: 10px 15px 10px 15px;
-   font-size: 22px;
-   border: 5px solid rgb(241, 170, 38);
-}
-
-.grab-link h6 {
-    color: rgba(85, 5, 110, 0.897);
-    margin-top: 15px;
-}
-
-.blue {
-    text-shadow: 0px 1px 0px rgb(241, 170, 38);
-    background-image: -webkit-linear-gradient(top, rgb(241, 170, 38), rgb(228, 156, 22));
-    background-image: -moz-linear-gradient(top, rgb(241, 170, 38), rgb(228, 156, 22));
-    background-image: -o-linear-gradient(top, rgb(241, 170, 38), rgb(228, 156, 22));
-    background-image: linear-gradient(to bottom, rgb(241, 170, 38), rgb(228, 156, 22));
-    -webkit-animation: orange 2s infinite;
-    -moz-animation: orange 2s infinite;
-    -o-animation: orange 2s infinite;
-    animation: orange 2s infinite; }
-
-/* Blue Shadow */
-@-moz-keyframes orange {
-    0%, 100% {
-      -moz-box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5);
-      box-shadow: 1px 0px 19px 4px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
-  
-    50% {
-      -moz-box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
-      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
-  
-  @-webkit-keyframes orange {
-    0%, 100% {
-      -webkit-box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5);
-      box-shadow: 1px 0px 19px 4px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
-  
-    50% {
-      -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
-      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
-  
-  @-o-keyframes orange {
-    0%, 100% {
-      box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
-  
-    50% {
-      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
-  
-  @keyframes orange {
-    0%, 100% {
-      box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
-  
-    50% {
-      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }

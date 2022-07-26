@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Jost:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&family=Secular+One&display=swap');
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Jost', sans-serif;
+}
+
+body p {
+    line-height: 1.7em;
+    font-size: 17px;
+}
+
+.fixed-top {
+    background: rgba(85, 5, 110, 0.897);
+}
+
+.not-dropdown {
+    color: rgb(241, 170, 38);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.not-dropdown:hover {
+    color: rgb(241, 170, 38);
+}
+
+.header-head {
+    color: rgb(241, 170, 38);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+.btn-userdrop {
+    color: rgb(241, 170, 38);
+}
+
+.btn-userdrop:focus {
+    box-shadow: none;
+    border: none;
+    color: rgb(241, 170, 38);
+}
+
+.btn-userdrop:hover {
+    color: rgb(241, 170, 38);
+    border: none;
+}
+
+.banner-1 {
+    background: url(../img/offer-bg-1.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-2 {
+    background: url(../img/offer-bg-5.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-3 {
+    background: url(../img/offer-bg-4.jpg) no-repeat center;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+.img-banner {
+    width: 100%;
+    height: auto;
+}
+
+.bantext-area {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.bantext-area h3 {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+}
+
+.btn-deposit {
+    background: rgba(85, 5, 110, 0.897);
+    color: white;
+    border: 2px solid rgba(85, 5, 110, 0.897);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-deposit:hover {
+    color: rgba(85, 5, 110, 0.897);
+    border: 2px solid rgba(85, 5, 110, 0.897);
+}
+
+.marquee-area {
+    position: relative;
+    margin: 0px 15px 0px 15px;
+}
+
+.marquee-area marquee {
+    background: rgb(241, 170, 38);
+    color: rgba(85, 5, 110, 0.897);
+    font-size: 16px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.megaphone {
+    position: relative;
+    color: rgba(85, 5, 110, 0.897);
+    background-color: rgb(241, 170, 38);
+    font-size: 20px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.c-1 {
+    width: 4%;
+}
+
+.c-11 {
+    width: 96%;
+}
+
+.dash-links-area a {
+    text-decoration: none;
+}
+
+.dash-links-area a .dash-icons i {
+    background: rgba(223, 214, 226, 0.897);
+    color: rgba(85, 5, 110, 0.897);
+    border-radius: 50%;
+    padding: 15px 20px 15px 20px;
+}
+
+.dash-links-area a .dash-text {
+    color: rgba(85, 5, 110, 0.897);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.levels-area .level-head {
+    color: rgb(241, 170, 38);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+.levels-area .levels {
+    width: 100%;
+    background: rgba(223, 214, 226, 0.897);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.levels-area .levels.active {
+    background: white;
+}
+
+.footer-area {
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+    background: white;
+}
+
+.comercio-level-img {
+    background: rgba(85, 5, 110, 0.897);
+    color: white;
+}
+
+.comercio-level-img h3 {
+    font-family: 'Secular One', sans-serif;
+    line-height: 1em;
+}
+
+.comercio-level-img span {
+    font-size: 10px;
+}
+
+.text-orange {
+    color: rgb(241, 170, 38);
+}
+
+.text-purple {
+    color: rgba(85, 5, 110, 0.897);
+}
+
+.comercio-level-text p{
+    font-size: 14px;
+    line-height: 0.2em !important;
+}
+
+.subscript {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.subscript .sub-text {
+    background: rgba(85, 5, 110, 0.897);
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+.abs-lock {
+    position: absolute;
+    top: 30%;
+    left : 50%;
+}
+
+.abs-lock span {
+    color: white;
+    opacity: 0.5;
+}
+
+.footer-link {
+    color: rgba(85, 5, 110, 0.897);
+    text-decoration: none;
+} 
+
+.footer-link span {
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    color: rgb(241, 170, 38);
+}
+
+.footer-link.active {
+    color: rgb(241, 170, 38);
+}
+
+/* .b-right {
+    border-right: 1px solid rgba(85, 5, 110, 0.897);
+    border-width: 1.2px;
+} */
+
+.grab {
+    margin-top: -12px !important;
+}
+
+.grab-link {
+    text-decoration: none;
+}
+
+.grab-link span{
+   color: rgb(241, 170, 38);
+   background: rgba(85, 5, 110, 0.897);
+   border-radius: 50%;
+   padding: 10px 15px 10px 15px;
+   font-size: 22px;
+   border: 5px solid rgb(241, 170, 38);
+}
+
+.grab-link h6 {
+    color: rgba(85, 5, 110, 0.897);
+    margin-top: 15px;
+}
+
+.blue {
+    text-shadow: 0px 1px 0px rgb(241, 170, 38);
+    background-image: -webkit-linear-gradient(top, rgb(241, 170, 38), rgb(228, 156, 22));
+    background-image: -moz-linear-gradient(top, rgb(241, 170, 38), rgb(228, 156, 22));
+    background-image: -o-linear-gradient(top, rgb(241, 170, 38), rgb(228, 156, 22));
+    background-image: linear-gradient(to bottom, rgb(241, 170, 38), rgb(228, 156, 22));
+    -webkit-animation: orange 2s infinite;
+    -moz-animation: orange 2s infinite;
+    -o-animation: orange 2s infinite;
+    animation: orange 2s infinite; }
+
+/* Blue Shadow */
+@-moz-keyframes orange {
+    0%, 100% {
+      -moz-box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+      box-shadow: 1px 0px 19px 4px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+  
+    50% {
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
+      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+  
+  @-webkit-keyframes orange {
+    0%, 100% {
+      -webkit-box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+      box-shadow: 1px 0px 19px 4px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+  
+    50% {
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
+      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+  
+  @-o-keyframes orange {
+    0%, 100% {
+      box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+  
+    50% {
+      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+  
+  @keyframes orange {
+    0%, 100% {
+      box-shadow: 1px 0px 19px 7px rgba(241, 170, 38, 0.959), inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+  
+    50% {
+      box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
