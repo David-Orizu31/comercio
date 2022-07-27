@@ -8,9 +8,9 @@
 
    if($(window).width() <= 480) {
     var botheight = $('.sticky-bottom').height();
-    var offkheight = $('.offcanvas-body').height();
+    var offkheight = $('.off-can-body').height();
     var maxheight = offkheight - botheight;
-    $('.offcanvas-body').css({
+    $('.off-can-body').css({
       'max-height' : maxheight,
       'overflow' : 'auto'
     });
