@@ -188,6 +188,28 @@ body p {
     font-weight: 600;
 }
 
+.icon-link {
+    text-decoration: none;
+}
+
+.icon-link .icon-icon {
+    color: white;
+    background: rgb(85, 5, 110);
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.icon-link .icon-text {
+    color: black;
+    line-height: 1.2em;
+    margin-top: 7px;
+}
+
+.icons-table tr td {
+    width: 200px;
+}
+
 .btn-more {
     color: white;
     background: rgb(85, 5, 110);
@@ -267,6 +289,10 @@ body p {
     text-decoration: none;
 }
 
+.sticky-nav ul li a.active {
+    color: rgb(241, 170, 38);
+}
+
 .sticky-nav ul li a:hover {
     color: rgb(241, 170, 38);
 }
@@ -282,6 +308,29 @@ body p {
     position: relative;
     padding-top: 100px;
     border-radius: 10px;
+}
+
+.sticky-bottom {
+    background: rgb(134, 81, 134);
+}
+
+.nv-link {
+    border-right: 1px solid white;
+}
+
+.nv-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.nv-link a.active {
+    color: rgb(241, 170, 38);
+}
+
+.nv-link a span {
+    display: block;
+    font-size: 13px;
+    font-family: 'Arima', sans-serif;
 }
 
 .footer-area {

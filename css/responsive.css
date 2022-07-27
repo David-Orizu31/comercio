@@ -14,10 +14,24 @@
         color: rgb(89, 87, 90);
         line-height: 1.7em;
     }
+
+    .icon-link .icon-text {
+        font-size: 15px;
+    }
 }
 
 @media (max-width:480px) {
     .home-banner {
         padding-top: 100px;
+    }
+
+    .icon-link .icon-text {
+        font-size: 13px;
+    }
+
+    .icon-link .icon-icon {
+        padding: 11px;
+        font-size: 24px;
+        border-radius: 50%;
     }
 }
